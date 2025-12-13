@@ -4,6 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  "prebuild": "rm -rf src && unzip -o src.zip -d .",
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+}
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
