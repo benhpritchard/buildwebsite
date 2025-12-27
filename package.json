@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "rm -rf src && unzip -o src.zip -d .",
+    "prebuild": "echo prebuild-ok",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
